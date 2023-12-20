@@ -1,0 +1,34 @@
+.navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.nav-logo{
+    height: 100px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navart{
+    height: 100px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+#logo{
+    font-size: 80px;
+    background: -webkit-linear-gradient(red,#000,white,blue,green,purple,olive,orange,pink);
+    background-position: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
